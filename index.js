@@ -3,6 +3,11 @@ import fetch from "node-fetch";
 
 const app = express();
 app.use(express.json());
+const ASSIGNEE_MAP = {
+  "Affan": 10217346,
+  "Tareq": 10217346
+};
+
 
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const CLICKUP_TOKEN = process.env.CLICKUP_TOKEN;
