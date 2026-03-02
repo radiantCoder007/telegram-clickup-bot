@@ -7,7 +7,7 @@ app.use(express.json());
 // ===== ASSIGNEE MAPPING =====
 const ASSIGNEE_MAP = {
   "Affan": 10217346,
-  "Tareq": 10217346
+  "Tareq": 68524659
 };
 
 // ===== ENV VARIABLES =====
